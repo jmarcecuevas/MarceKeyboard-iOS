@@ -29,7 +29,7 @@ public final class MarceKeyboard {
     
     public var observers: NSMapTable<NSString, KeyboardObject> = NSMapTable(keyOptions: NSPointerFunctions.Options.strongMemory, valueOptions: NSPointerFunctions.Options.strongMemory)
     
-    private init() {
+    public init() {
         let center = NotificationCenter.default
         center.addObserver(self, selector: #selector(keyboardWillShow(_:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
         center.addObserver(self, selector: #selector(keyboardWillHide(_:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
@@ -40,19 +40,19 @@ public final class MarceKeyboard {
     }
     
     // MARK: - Notifications
-    @objc private func keyboardWillShow(_ notification: Notification) {
+    @objc public func keyboardWillShow(_ notification: Notification) {
         var userInfo = notification.userInfo!
         let keyboardFrame: CGRect = (userInfo[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
         
         postCompletions(with: true, height: keyboardFrame.height)
     }
     
-    @objc private func keyboardWillHide(_ notification: Notification) {
+    @objc public func keyboardWillHide(_ notification: Notification) {
         postCompletions(with: false, height: 0)
     }
     
     // MARK: - Inner
-    private func postCompletions(with visibility: Bool, height: CGFloat) {
+    public func postCompletions(with visibility: Bool, height: CGFloat) {
         guard let enumerator = observers.objectEnumerator() else { return }
         
         enumerator.forEach {
