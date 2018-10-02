@@ -27,7 +27,7 @@ public final class MarceKeyboard {
     
     static let `default` = MarceKeyboard()
     
-    private var observers: NSMapTable<NSString, KeyboardObject> = NSMapTable(keyOptions: NSPointerFunctions.Options.strongMemory, valueOptions: NSPointerFunctions.Options.strongMemory)
+    public var observers: NSMapTable<NSString, KeyboardObject> = NSMapTable(keyOptions: NSPointerFunctions.Options.strongMemory, valueOptions: NSPointerFunctions.Options.strongMemory)
     
     private init() {
         let center = NotificationCenter.default
