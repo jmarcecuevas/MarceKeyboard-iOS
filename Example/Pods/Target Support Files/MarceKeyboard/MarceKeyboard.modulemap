@@ -1,0 +1,6 @@
+framework module MarceKeyboard {
+  umbrella header "MarceKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

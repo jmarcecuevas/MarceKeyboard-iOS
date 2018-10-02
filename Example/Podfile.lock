@@ -1,0 +1,16 @@
+PODS:
+  - MarceKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - MarceKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  MarceKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MarceKeyboard: 17222904f3b9b5f30a4a7d415674cb3490734e61
+
+PODFILE CHECKSUM: e7b5c515e96cea8ea710e7393c6ef78bdf1e20fe
+
+COCOAPODS: 1.5.3

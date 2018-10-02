@@ -1,0 +1,22 @@
+{
+  "name": "MarceKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of MarceKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/marceCuevas16/MarceKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "marceCuevas16": "marce.cuevas16@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/marceCuevas16/MarceKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MarceKeyboard/Classes/**/*"
+}
