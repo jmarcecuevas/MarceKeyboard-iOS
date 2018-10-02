@@ -12,12 +12,11 @@
 		3460F4E5E1287E58B2DD5250597A06E9 /* MarceKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56925B1B46BB7CD2912D2BA6A58475DE /* MarceKeyboard-dummy.m */; };
 		387EAC308FFEE9EFC4CACDED44965169 /* Pods-MarceKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C4228EACECC9DE4CFCD57D79A68595 /* Pods-MarceKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4148670B1BDB48A761434184085FF532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		6D28A3572163BD3F006ED67F /* MarceKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D28A3562163BD3F006ED67F /* MarceKeyboard.swift */; };
 		79DB1DC6284EB695E99EC06B818A0655 /* Pods-MarceKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AA7CE28527C63780C6039D1D78413D /* Pods-MarceKeyboard_Example-dummy.m */; };
 		8A0BB3A6101847E6D5E141B01CE6243D /* MarceKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E276C4640B30748AF32BBCF74DCF4EBC /* MarceKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5AFEFAB79CD30BAD2F9E6F706AD5D81 /* Pods-MarceKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F86FBA7F02CF2EE56930B08DB400246 /* Pods-MarceKeyboard_Tests-dummy.m */; };
 		E6028EC8950BED64F2E3B63C4C22484D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FF9C25689C191894B26D19D09BE9EC14 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBB068B8B0D732E6B45365C81DFAB /* ReplaceMe.swift */; };
+		FF9C25689C191894B26D19D09BE9EC14 /* MarceKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5CBB068B8B0D732E6B45365C81DFAB /* MarceKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6002CC44E9EC793FB6096B4B63BB4709 /* MarceKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MarceKeyboard.modulemap; sourceTree = "<group>"; };
 		615FBD73686D5161A96C541C392537E7 /* Pods-MarceKeyboard_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarceKeyboard_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6D28A3562163BD3F006ED67F /* MarceKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarceKeyboard.swift; sourceTree = "<group>"; };
 		6FB1AF50861ECB7B1FA8A4EFB23A4677 /* Pods-MarceKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MarceKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		783C96B903335B1361B85DC4D2E19843 /* MarceKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MarceKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		84C4228EACECC9DE4CFCD57D79A68595 /* Pods-MarceKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MarceKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -73,7 +71,7 @@
 		EC353136F54E20E20692411AF82F21B6 /* Pods_MarceKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarceKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AA7CE28527C63780C6039D1D78413D /* Pods-MarceKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MarceKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
 		F91400FBC960C32CCBB87145650713CF /* Pods-MarceKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MarceKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FA5CBB068B8B0D732E6B45365C81DFAB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MarceKeyboard/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		FA5CBB068B8B0D732E6B45365C81DFAB /* MarceKeyboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarceKeyboard.swift; path = MarceKeyboard/Classes/MarceKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +115,9 @@
 		558A0E9869E5A18329F6BB19C1D7F0FB /* MarceKeyboard */ = {
 			isa = PBXGroup;
 			children = (
-				FA5CBB068B8B0D732E6B45365C81DFAB /* ReplaceMe.swift */,
+				FA5CBB068B8B0D732E6B45365C81DFAB /* MarceKeyboard.swift */,
 				15C2A53905A1E91B6C31AC01354A629F /* Pod */,
 				7B90C99CFE41196AF9D4D645AB754577 /* Support Files */,
-				6D28A3562163BD3F006ED67F /* MarceKeyboard.swift */,
 			);
 			name = MarceKeyboard;
 			path = ../..;
@@ -390,8 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3460F4E5E1287E58B2DD5250597A06E9 /* MarceKeyboard-dummy.m in Sources */,
-				FF9C25689C191894B26D19D09BE9EC14 /* ReplaceMe.swift in Sources */,
-				6D28A3572163BD3F006ED67F /* MarceKeyboard.swift in Sources */,
+				FF9C25689C191894B26D19D09BE9EC14 /* MarceKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
