@@ -1,4 +1,4 @@
-# MarceKeyboard
+# MarceKeyboard-iOS
 
 [![CI Status](https://img.shields.io/travis/marceCuevas16/MarceKeyboard.svg?style=flat)](https://travis-ci.org/marceCuevas16/MarceKeyboard)
 [![Version](https://img.shields.io/cocoapods/v/MarceKeyboard.svg?style=flat)](https://cocoapods.org/pods/MarceKeyboard)
